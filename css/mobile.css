@@ -1,0 +1,385 @@
+@media(max-width: 1200px) {
+    .repairable-brands__content {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 991px) {
+    .header__number {
+        display: none;
+    }
+
+    .breakdowns__content {
+        grid-template-columns: 1fr;
+    }
+
+    .action__img {
+        opacity: 0.2;
+    }
+
+    .how-work__item_flex .how-work__header {
+        height: auto;
+        width: 100%;
+        padding: 25px !important;
+        border-bottom: 2px solid #BFE0FF;
+        border-right: none;
+    }
+    
+    .how-work__item_flex {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px) {
+    .burger, .header__number {
+        display: flex;
+    }
+
+    .header__logo, .burger {
+        z-index: 1002;
+    }
+     
+    .header__nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1000;
+        overflow-y: auto;
+        margin-right: 0;
+        margin-left: 20px;
+        padding-top: 0;
+        padding-bottom: 0;
+        transform: translate(-100%, 0);
+        transition: 0.3s;
+
+        background-color: #fff;
+    }
+
+    .nav__list, .nav__title {
+        display: flex;
+    }
+
+    .nav__block-mobile, .header__mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav__block-mobile {
+        margin-right: 0;
+    }
+
+    .nav__item {
+        margin-right: 0;
+        margin-top: 30px;
+    }
+
+    .nav__item:first-child {
+        margin-top: 0;
+    }
+
+    .nav__title {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .nav__link {
+        font-size: 15px;
+    }
+
+    .header__mobile {
+        margin-top: 35px;
+    }
+
+    .show-menu {
+        transform: translate(0, 0);
+        transition: 0.3s;
+    }
+
+    .header__number {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: 600;
+        color: #FF005C;
+    }
+
+    .nav__time-work {
+        display: block;
+        margin-top: 5px;
+        color: #797979;
+    }
+
+    .nav__address {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+    .nav__address-city {
+        font-weight: 400;
+        color: #797979;
+    }
+
+    .nav__address-street {
+        font-size: 18px;
+        font-weight: 600;
+        color: #FF005C;
+        margin-top: 10px;
+    }
+
+    .nav__address-street_dark {
+        color: #000;
+        margin-top: 10px;
+    }
+
+    .home__btn-call_mobile {
+        width: 220px;
+    }
+
+    .header__number img {
+        display: none;
+    }
+
+    .home {
+        display: block;
+        width: 100%;
+        height: 65vh;
+        background-image: url('/img/home/home-mobile.png');
+        background-position: right top;
+        background-repeat: no-repeat;
+    }
+
+    .home__right {
+        display: none;
+    }
+
+    .section {
+        margin-top: 80px;
+    }
+
+    .title {
+        font-size: 23px;
+        line-height: 27px;
+    }
+
+    .repairable-brands__content {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .action__body, .action__btns {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .action__text, .action__title {
+        text-align: center;
+    }
+
+    .action__title {
+        line-height: 37px;
+    }
+
+    .action__price, .action__more-action {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    
+    .action__more-action {
+        margin-top: 20px;
+    }
+
+    .call-master__block {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .call-master__number, .call-master__title {
+        padding-left: 0;
+    }
+
+    .call-master__text {
+        padding-right: 45px;
+    }
+
+    .call-master__right {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .call-master__form {
+        margin-left: 0px;
+    }
+
+    .call-master__right img {
+        opacity: 0.5
+    }
+
+    .how-work__bottom, .how-work__top {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+
+}
+
+
+
+
+
+
+
+@media (max-width: 530px) {
+    .home__btn-call, .home__subtitle {
+        margin-top: 30px;
+    }
+
+    .breakdowns__img-bottom, .breakdowns__img-top {
+        display: none;
+    }
+
+    .breakdowns__block img:first-child {
+        width: 28px;
+        height: 28px;
+    }
+
+    .breakdowns__list {
+        display: flex;
+        flex-direction: column;
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.5s ease-out;
+        margin-top: 0;
+    }
+
+    .breakdowns__block {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: flex;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .breakdowns__title {
+        display: block;
+        width: 100%;
+    }
+    
+    .breakdowns__categories {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .breakdowns__block-arrow {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .breakdowns__arrow {
+        display: flex;
+    }
+
+    .active-breakdowns .show-breakdowns {
+        max-height: 100vh !important;
+        transition: all 0.5s ease-in;
+        overflow: none;
+    }
+
+    .active-breakdowns .arrow-down {
+        transform: rotate(180deg) !important;
+        transition: 0.3s
+    }
+
+    .breakdowns__img-bottom {
+        bottom: 0 !important;
+    }
+
+    .repairable-brands__content {
+        grid-template-columns: 1fr;
+    }
+
+    .reviews__body {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .reviews__date {
+        margin-left: 0;
+    }
+
+    .reviews__item {
+        padding: 10px;
+    }
+
+    .action__item {
+        padding: 30px 15px;
+    }
+
+    .action__text {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .call-master__text {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .call-master__form{
+        width: 100%;
+    }
+
+    .call-master__form input, .call-master__btn {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrandСервис</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <a href="index.html" class="header__logo"><img src="img/logo.svg" alt="logo"></a>
+                <nav class="header__nav nav">
+                    <ul class="nav__list">
+                        <div class="nav__block-mobile">
+                            <span class="nav__title">Навигация</span>
+                            <li class="nav__item"><a href="index.html" class="nav__link active-page">Главная</a></li>
+                            <li class="nav__item"><a href="html/brand.html" class="nav__link">Бренды</a></li>
+                            <li class="nav__item"><a href="html/breakdown.html" class="nav__link">Поломки</a></li>
+                        </div>
+                        <div class="nav__block-mobile">
+                            <li class="nav__item"><a href="html/news.html" class="nav__link">Новости</a></li>
+                            <li class="nav__item"><a href="html/contacts.html" class="nav__link">Контакты</a></li>
+                        </div>
+                    </ul>
+                    <div class="header__mobile">
+                        <div class="nav__time">
+                            <span class="nav__title" id="nav-title">Приходите к нам</span>
+                            <span class="nav__time-work">Пн-Пт: с 10 до 21, Сб-Вс: с 11 до 20</span>
+                        </div>
+                        <div class="nav__address">
+                            <span class="nav__address-city">г. Санкт-Петербург</span>
+                            <span class="nav__address-street">Ленинский пр, 136</span>
+                            <span class="nav__address-street_dark">м. Ленинский проспект</span>
+                        </div>
+                        <button type="button" class="home__btn-call home__btn-call_mobile btn_style">Позвонить нам</button>
+                    </div>
+                </nav>
+                <a href="tel:+78125092043" class="header__number"><img src="icons/phone.svg" alt="number company">+7 (812) 509-20-43</a>
+                <div class="burger">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="home">
+            <div class="container">
+                <div class="home__content">
+                    <div class="home__left">
+                        <h1 class="home__title">Мы чиним любые <br> телефоны</h1>
+                        <span class="home__subtitle">Починим Ваш телефон в Санкт-Петербурге</span>
+                        <button type="button" class="home__btn-call btn_style">Позвонить нам</button>
+                    </div>
+                    <div class="home__right">
+                        <img src="img/home/home-bg.png" alt="fixing phones">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits section">
+            <div class="container">
+                <div class="title">Нас выбирают</div>
+                    <div class="swiper benefits__slider">
+                        <div class="benefits__content swiper-wrapper">
+                            <div class="benefits__item swiper-slide">
+                                <div class="benefits__img">
+                                    <img src="img/home/benefits/benefits-01.svg" alt="first benefit">
+                                </div>
+                                <div class="benefits__description">
+                                    <span class="benefits__title">Качество и скорость работы</span>
+                                    <span class="benefits__subtitle">Время ремонта в нашем сервисном центре занимает от 30 минут </span>
+                                </div>
+                            </div>
+                            <div class="benefits__item swiper-slide">
+                                <div class="benefits__img">
+                                    <img src="img/home/benefits/benefits-02.svg" alt="first benefit">
+                                </div>
+                                <div class="benefits__description">
+                                    <span class="benefits__title">Доступная стоимость работы</span>
+                                    <span class="benefits__subtitle">Время ремонта в нашем сервисном центре занимает от 30 минут</span>
+                                </div>
+                            </div>
+                            <div class="benefits__item swiper-slide">
+                                <div class="benefits__img">
+                                    <img src="img/home/benefits/benefits-03.svg" alt="first benefit">
+                                </div>
+                                <div class="benefits__description">
+                                    <span class="benefits__title">Гарантия от 3-х месяцев</span>
+                                    <span class="benefits__subtitle">Для клиентов мы предоствляем гарантию на работу</span>
+                                </div>
+                            </div>
+                            <div class="benefits__item swiper-slide">
+                                <div class="benefits__img">
+                                    <img src="img/home/benefits/benefits-04.svg" alt="first benefit">
+                                </div>
+                                <div class="benefits__description">
+                                    <span class="benefits__title">Оригинальные запчасти</span>
+                                    <span class="benefits__subtitle">Для ремонта используем оригинальные запчасти, либо аналоги</span>
+                                </div>
+                            </div>
+                            <div class="benefits__item swiper-slide">
+                                <div class="benefits__img">
+                                    <img src="img/home/benefits/benefits-05.svg" alt="first benefit">
+                                </div>
+                                <div class="benefits__description">
+                                    <span class="benefits__title">Нано оборудование</span>
+                                    <span class="benefits__subtitle">Ремонтируем поломки, а не меняем детали целиком</span>
+                                </div>
+                            </div>
+                            <div class="benefits__item swiper-slide">
+                                <div class="benefits__img">
+                                    <img src="img/home/benefits/benefits-06.svg" alt="first benefit">
+                                </div>
+                                <div class="benefits__description">
+                                    <span class="benefits__title">Запчасти в наличии</span>
+                                    <span class="benefits__subtitle">Всегда в наличии оригинальные запчасти от производителя</span>
+                                </div>
+                            </div>
+                            <div class="benefits__item swiper-slide">
+                                <div class="benefits__img">
+                                    <img src="img/home/benefits/benefits-07.svg" alt="first benefit">
+                                </div>
+                                <div class="benefits__description">
+                                    <span class="benefits__title">Режим работы</span>
+                                    <span class="benefits__subtitle">Работаем каждый день без выходных и перерывов</span>
+                                </div>
+                            </div>
+                            <div class="benefits__item swiper-slide">
+                                <div class="benefits__img">
+                                    <img src="img/home/benefits/benefits-08.svg" alt="first benefit">
+                                </div>
+                                <div class="benefits__description">
+                                    <span class="benefits__title">Скидка 10%</span>
+                                    <span class="benefits__subtitle">Даже при втором обращении вы получаете скидку</span>
+                                </div>
+                            </div>
+                            <div class="benefits__item swiper-slide">
+                                <div class="benefits__img">
+                                    <img src="img/home/benefits/benefits-09.svg" alt="first benefit">
+                                </div>
+                                <div class="benefits__description">
+                                    <span class="benefits__title">Опытные мастера</span>
+                                    <span class="benefits__subtitle">Квалифицированные инженеры с опытом работы от 5 лет</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination benefits__pagination pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="breakdowns section">
+            <div class="container">
+                <div class="title">Ремонтируем поломки</div>
+                <div class="breakdowns__content">
+                    <div class="breakdowns__block" data-breakdowns="breakdowns-1">
+                        <img src="img/home/breakdowns/breakdowns-01.svg" alt="1 breakdowns">
+                        <img class="breakdowns__img-top" src="img/home/breakdowns/breakdowns-img-01.png" alt="">
+                        <div class="breakdowns__categories">
+                            <div class="breakdowns__block-arrow">
+                                <span class="breakdowns__title">Дисплей и стекло</span>
+                                <img src="img/home/breakdowns/arrow-down.svg" alt="arrow" class="breakdowns__arrow arrow-down">
+                            </div>
+                            <ul class="breakdowns__list" id="breakdowns-1">
+                                <div>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Не работает экран</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Треснуло стекло</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Не работает сенсор или тачскрин</a></li>
+                                </div>
+                                <div>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Нет подсветки экрана</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Не работает часть экрана</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Появились полосы</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="breakdowns__block" data-breakdowns="breakdowns-2">
+                        <img src="img/home/breakdowns/breakdowns-02.svg" alt="2 breakdowns">
+                        <img class="breakdowns__img-top" src="img/home/breakdowns/breakdowns-img-02.png" alt="">
+                        <div class="breakdowns__categories">
+                            <div class="breakdowns__block-arrow">
+                                <span class="breakdowns__title">Зарядка и батарея</span>
+                                <img src="img/home/breakdowns/arrow-down.svg" alt="arrow" class="breakdowns__arrow arrow-down">
+                            </div>
+                            <ul class="breakdowns__list" id="breakdowns-2">
+                                <div>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Быстро разряжается</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Вздулся аккумулятор</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Не заряжается</a></li>
+                                </div>
+                                <div>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Плохой контакт зарядки</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Греется во время зарядки</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="breakdowns__block" data-breakdowns="breakdowns-3">
+                        <img src="img/home/breakdowns/breakdowns-03.svg" alt="3 breakdowns">
+                        <img class="breakdowns__img-top" src="img/home/breakdowns/breakdowns-img-03.png" alt="">
+                        <div class="breakdowns__categories">
+                            <div class="breakdowns__block-arrow">
+                                <span class="breakdowns__title">Звук и динамики</span>
+                                <img src="img/home/breakdowns/arrow-down.svg" alt="arrow" class="breakdowns__arrow arrow-down">
+                            </div>
+                            <ul class="breakdowns__list" id="breakdowns-3">
+                                <div>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Динамик хрипит</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Динамик не работает</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Динамик тихо работает</a></li>
+                                </div>
+                                <div>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Не работают наушники</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Не работает вибро</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="breakdowns__block" data-breakdowns="breakdowns-4">
+                        <img src="img/home/breakdowns/breakdowns-04.svg" alt="4 breakdowns">
+                        <img class="breakdowns__img-bottom" src="img/home/breakdowns/breakdowns-img-04.png" alt="">
+                        <div class="breakdowns__categories">
+                            <div class="breakdowns__block-arrow">
+                                <span class="breakdowns__title">Камеры</span>
+                                <img src="img/home/breakdowns/arrow-down.svg" alt="arrow" class="breakdowns__arrow arrow-down">
+                            </div>
+                            <ul class="breakdowns__list" id="breakdowns-4">
+                                <div>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Не фокусирует передняя</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Не фокусирует задняя</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Не работает фронтальная</a></li>
+                                </div>
+                                <div>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Не работает задняя</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Не работает вспышка</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Треснуло стекло камеры</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="breakdowns__block" data-breakdowns="breakdowns-5">
+                        <img src="img/home/breakdowns/breakdowns-05.svg" alt="5 breakdowns">
+                        <img class="breakdowns__img-bottom" src="img/home/breakdowns/breakdowns-img-05.png" alt="">
+                        <div class="breakdowns__categories">
+                            <div class="breakdowns__block-arrow">
+                                <span class="breakdowns__title">Кнопки</span>
+                                <img src="img/home/breakdowns/arrow-down.svg" alt="arrow" class="breakdowns__arrow arrow-down">
+                            </div>
+                            <ul class="breakdowns__list" id="breakdowns-5">
+                                <div>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Не работают кнопки</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Ремонт кнопки громкости</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Ремонт кнопки home</a></li>                                  
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Ремонт кнопки home</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="breakdowns__block" data-breakdowns="breakdowns-6">
+                        <img src="img/home/breakdowns/breakdowns-06.svg" alt="6 breakdowns">
+                        <img class="breakdowns__img-top" src="img/home/breakdowns/breakdowns-img-06.png" alt="">
+                        <div class="breakdowns__categories">
+                            <div class="breakdowns__block-arrow">
+                                <span class="breakdowns__title">Дисплей и стекло</span>
+                                <img src="img/home/breakdowns/arrow-down.svg" alt="arrow" class="breakdowns__arrow arrow-down">
+                            </div>
+                            <ul class="breakdowns__list" id="breakdowns-6">
+                                <div>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Я не слышу собеседника</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Плохо слышно абонента</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Не гаснет при разговоре</a></li>
+                                </div>
+                                <div>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Собеседник не слышит</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Собеседник плохо слышит</a></li>                                   
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="breakdowns__block" data-breakdowns="breakdowns-7">
+                        <img src="img/home/breakdowns/breakdowns-07.svg" alt="7 breakdowns">
+                        <img class="breakdowns__img-top" src="img/home/breakdowns/breakdowns-img-07.png" alt="">
+                        <div class="breakdowns__categories">
+                            <div class="breakdowns__block-arrow">
+                                <span class="breakdowns__title">Связь, сеть и WI-FI</span>
+                            <img src="img/home/breakdowns/arrow-down.svg" alt="arrow" class="breakdowns__arrow arrow-down">
+                            </div>
+                            <ul class="breakdowns__list" id="breakdowns-7"">
+                                <div>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Не видит SIM карту</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Не видит сеть</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Сеть ловит плохо</a></li>
+                                </div>
+                                <div>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Не работает 3G/4G</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Не работает Wi-Fi</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="breakdowns__block" data-breakdowns="breakdowns-8">
+                        <img src="img/home/breakdowns/breakdowns-08.svg" alt="8 breakdowns">
+                        <img class="breakdowns__img-bottom" src="img/home/breakdowns/breakdowns-img-08.png" alt="">
+                        <div class="breakdowns__categories">
+                            <div class="breakdowns__block-arrow">
+                                <span class="breakdowns__title">Общие проблемы</span>
+                            <img src="img/home/breakdowns/arrow-down.svg" alt="arrow" class="breakdowns__arrow arrow-down">
+                            </div>
+                            <ul class="breakdowns__list" id="breakdowns-8">
+                                <div>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Сильно греется</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Глючит или тормозит</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Разблокировка</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Зависает</a></li>
+                                </div>
+                                <div>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Не включается</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Не видит карту памяти</a></li>
+                                    <li class="breakdowns__item"><a href="html/breakdown.html" class="breakdowns__link">Попала вода</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="repairable-brands section">
+            <div class="container">
+                <div class="title">ремонтируем бренды</div>
+                <div class="repairable-brands__content">
+                    <div>
+                        <a href="html/brand.html" class="repairable-brands__item">
+                            <img src="img/home/repairable brands/01.png" alt="xiaomi">
+                            <span class="repairable-brands__brand">Модели Xiaomi<img src="img/home/repairable brands/arrow-right.svg" alt="arrow"></span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="html/brand.html" class="repairable-brands__item">
+                            <img src="img/home/repairable brands/02.png" alt="apple">
+                            <span class="repairable-brands__brand">Модели Apple<img src="img/home/repairable brands/arrow-right.svg" alt="arrow"></span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="html/brand.html" class="repairable-brands__item">
+                            <img src="img/home/repairable brands/03.png" alt="huawei">
+                            <span class="repairable-brands__brand">Модели Huawei<img src="img/home/repairable brands/arrow-right.svg" alt="arrow"></span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="html/brand.html" class="repairable-brands__item">
+                            <img src="img/home/repairable brands/04.png" alt="honor">
+                            <span class="repairable-brands__brand">Модели Honor<img src="img/home/repairable brands/arrow-right.svg" alt="arrow"></span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="html/brand.html" class="repairable-brands__item">
+                            <img src="img/home/repairable brands/05.png" alt="meizu">
+                            <span class="repairable-brands__brand">Модели Meizu<img src="img/home/repairable brands/arrow-right.svg" alt="arrow"></span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="html/brand.html" class="repairable-brands__item">
+                            <img src="img/home/repairable brands/06.png" alt="sumsung">
+                            <span class="repairable-brands__brand">Модели Sumsung<img src="img/home/repairable brands/arrow-right.svg" alt="arrow"></span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="html/brand.html" class="repairable-brands__item">
+                            <img src="img/home/repairable brands/07.png" alt="nokia">
+                            <span class="repairable-brands__brand">Модели Nokia<img src="img/home/repairable brands/arrow-right.svg" alt="arrow"></span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="html/brand.html" class="repairable-brands__item">
+                            <img src="img/home/repairable brands/08.png" alt="lenovo">
+                            <span class="repairable-brands__brand">Модели Lenovo<img src="img/home/repairable brands/arrow-right.svg" alt="arrow"></span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="html/brand.html" class="repairable-brands__item">
+                            <img src="img/home/repairable brands/09.png" alt="sony">
+                            <span class="repairable-brands__brand">Модели Sony<img src="img/home/repairable brands/arrow-right.svg" alt="arrow"></span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="html/brand.html" class="repairable-brands__item">
+                            <img src="img/home/repairable brands/10.png" alt="asus">
+                            <span class="repairable-brands__brand">Модели Asus<img src="img/home/repairable brands/arrow-right.svg" alt="arrow"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews section">
+            <div class="container">
+                <div class="title">Реальные отзывы</div>
+                <div class="swiper reviews__slider">
+                    <div class="reviews__content swiper-wrapper">
+                        <div class="reviews__item swiper-slide">
+                            <div class="reviews__header">
+                                <img src="img/home/reviews/reviews.svg" alt="review">
+                                <span class="reviews__name">Роман</span>
+                            </div>
+                            <div class="reviews__body">
+                                <span class="reviews__docs">Договор:<span class="reviews__docs-number">349573</span></span>
+                                <span class="reviews__date">Дата:<span class="reviews__date-number">21.03.2021</span></span>
+    
+                                <div class="reviews__rating">
+                                    <span><img src="img/home/reviews/star.svg" alt="rating 1"></span>
+                                    <span><img src="img/home/reviews/star.svg" alt="rating 2"></span>
+                                    <span><img src="img/home/reviews/star.svg" alt="rating 3"></span>
+                                    <span><img src="img/home/reviews/star.svg" alt="rating 4"></span>
+                                    <span><img src="img/home/reviews/star.svg" alt="rating 5"></span>
+                                </div>
+                            </div>
+                            <div class="reviews__text">
+                                Отличная компания! После моего первого звонка, через 
+                                сутки, у  меня уже висел отремонтированный тв. Сами забирали, сами привезли, бесплатно. Сейчас очень тяжело  найти добросовестную компанию. Молодцы!! Удачи и  развития!! И спасибо, за быструю и качественную работу.
+                            </div>
+                            <div class="reviews__link">
+                                <img src="img/home/reviews/yandex.svg" alt="yandex reviews">
+                                <span>Читать на<a class="reviews__link-company" href="">Яндекс Отзывах</a></span>
+                            </div>
+                        </div>
+                        <div class="reviews__item swiper-slide">
+                            <div class="reviews__header">
+                                <img src="img/home/reviews/reviews.svg" alt="review">
+                                <span class="reviews__name">Алексей</span>
+                            </div>
+                            <div class="reviews__body">
+                                <span class="reviews__docs">Договор:<span class="reviews__docs-number">349573</span></span>
+                                <span class="reviews__date">Дата:<span class="reviews__date-number">21.03.2021</span></span>
+    
+                                <div class="reviews__rating">
+                                    <span><img src="img/home/reviews/star.svg" alt="rating 1"></span>
+                                    <span><img src="img/home/reviews/star.svg" alt="rating 2"></span>
+                                    <span><img src="img/home/reviews/star.svg" alt="rating 3"></span>
+                                    <span><img src="img/home/reviews/star.svg" alt="rating 4"></span>
+                                    <span><img src="img/home/reviews/star.svg" alt="rating 5"></span>
+                                </div>
+                            </div>
+                            <div class="reviews__text">
+                                Отличная компания! После моего первого звонка, через 
+                                сутки, у  меня уже висел отремонтированный тв. Сами забирали, сами привезли, бесплатно. Сейчас очень тяжело  найти добросовестную компанию. Молодцы!! Удачи и  развития!! И спасибо, за быструю и качественную работу.
+                            </div>
+                            <div class="reviews__link">
+                                <img src="img/home/reviews/yandex.svg" alt="yandex reviews">
+                                <span>Читать на<a class="reviews__link-company" href="">Google Отзывах</a></span>
+                            </div>
+                        </div>
+                        <div class="reviews__item swiper-slide">
+                            <div class="reviews__header">
+                                <img src="img/home/reviews/reviews.svg" alt="review">
+                                <span class="reviews__name">Роман</span>
+                            </div>
+                            <div class="reviews__body">
+                                <span class="reviews__docs">Договор:<span class="reviews__docs-number">349573</span></span>
+                                <span class="reviews__date">Дата:<span class="reviews__date-number">21.03.2021</span></span>
+    
+                                <div class="reviews__rating">
+                                    <span><img src="img/home/reviews/star.svg" alt="rating 1"></span>
+                                    <span><img src="img/home/reviews/star.svg" alt="rating 2"></span>
+                                    <span><img src="img/home/reviews/star.svg" alt="rating 3"></span>
+                                    <span><img src="img/home/reviews/star.svg" alt="rating 4"></span>
+                                    <span><img src="img/home/reviews/star.svg" alt="rating 5"></span>
+                                </div>
+                            </div>
+                            <div class="reviews__text">
+                                Отличная компания! После моего первого звонка, через 
+                                сутки, у  меня уже висел отремонтированный тв. Сами забирали, сами привезли, бесплатно. Сейчас очень тяжело  найти добросовестную компанию. Молодцы!! Удачи и  развития!! И спасибо, за быструю и качественную работу.
+                            </div>
+                            <div class="reviews__link">
+                                <img src="img/home/reviews/yandex.svg" alt="yandex reviews">
+                                <span>Читать на<a class="reviews__link-company" href="">Яндекс Отзывах</a></span>
+                            </div>
+                        </div>
+                        <div class="reviews__item swiper-slide">
+                            <div class="reviews__header">
+                                <img src="img/home/reviews/reviews.svg" alt="review">
+                                <span class="reviews__name">Алексей</span>
+                            </div>
+                            <div class="reviews__body">
+                                <span class="reviews__docs">Договор:<span class="reviews__docs-number">349573</span></span>
+                                <span class="reviews__date">Дата:<span class="reviews__date-number">21.03.2021</span></span>
+    
+                                <div class="reviews__rating">
+                                    <span><img src="img/home/reviews/star.svg" alt="rating 1"></span>
+                                    <span><img src="img/home/reviews/star.svg" alt="rating 2"></span>
+                                    <span><img src="img/home/reviews/star.svg" alt="rating 3"></span>
+                                    <span><img src="img/home/reviews/star.svg" alt="rating 4"></span>
+                                    <span><img src="img/home/reviews/star.svg" alt="rating 5"></span>
+                                </div>
+                            </div>
+                            <div class="reviews__text">
+                                Отличная компания! После моего первого звонка, через 
+                                сутки, у  меня уже висел отремонтированный тв. Сами забирали, сами привезли, бесплатно. Сейчас очень тяжело  найти добросовестную компанию. Молодцы!! Удачи и  развития!! И спасибо, за быструю и качественную работу.
+                            </div>
+                            <div class="reviews__link">
+                                <img src="img/home/reviews/yandex.svg" alt="yandex reviews">
+                                <span>Читать на<a class="reviews__link-company" href="">Google Отзывах</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination reviews__pagination pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="action section">
+            <div class="container">
+                <div class="title">Актуальные акции</div>
+                <div class="swiper action__slider">
+                    <div class="action__content swiper-wrapper">
+                        <div class="action__item swiper-slide">
+                            <div class="action__title">Замена дисплея на xiaomi mi 6</div>
+                            <div class="action__body">
+                                <span class="action__text">Замените свой разбитый<br> дисплей на <span class="action__text_bold">Xiaomi Mi 6</span></span>
+                                <span class="action__price"><span class="action__price_red">4000</span>руб</span>
+                            </div>
+                            <div class="action__btns">
+                                <button type="button" class="action__btn btn_style">Воспользоваться акцией</button>
+                                <a href="html/action.html" class="action__more-action">Показать другие акции<img src="img/home/action/arrow-right.svg" alt="arrow"></a>
+                            </div>
+                            <img class="action__img" src="img/home/action/action-bg.png" alt="action bg">
+                        </div>  
+                        <div class="action__item swiper-slide">
+                            <div class="action__title">Замена дисплея на xiaomi mi 6</div>
+                            <div class="action__body">
+                                <span class="action__text">Замените свой разбитый<br> дисплей на <span class="action__text_bold">Xiaomi Mi 6</span></span>
+                                <span class="action__price"><span class="action__price_red">4000</span>руб</span>
+                            </div>
+                            <div class="action__btns">
+                                <button type="button" class="action__btn btn_style">Воспользоваться акцией</button>
+                                <a href="html/action.html" class="action__more-action">Показать другие акции<img src="img/home/action/arrow-right.svg" alt="arrow"></a>
+                            </div>
+                            <img class="action__img" src="img/home/action/action-bg.png" alt="action bg">
+                        </div>  
+                        <div class="action__item swiper-slide">
+                            <div class="action__title">Замена дисплея на xiaomi mi 6</div>
+                            <div class="action__body">
+                                <span class="action__text">Замените свой разбитый<br> дисплей на <span class="action__text_bold">Xiaomi Mi 6</span></span>
+                                <span class="action__price"><span class="action__price_red">4000</span>руб</span>
+                            </div>
+                            <div class="action__btns">
+                                <button type="button" class="action__btn btn_style">Воспользоваться акцией</button>
+                                <a href="html/action.html" class="action__more-action">Показать другие акции<img src="img/home/action/arrow-right.svg" alt="arrow"></a>
+                            </div>
+                            <img class="action__img" src="img/home/action/action-bg.png" alt="action bg">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination action__pagination pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="call-master section">
+            <div class="container">
+                <div class="title">Вызвать мастера</div>
+                <div class="call-master__content">
+                    <div class="call-master__block">
+                        <div class="call-master__left">
+                            <div class="call-master__title">Вызвать мастера на дом</div>
+                            <div class="call-master__text">
+                                Чтобы вызвать мастера на дом, пожалуйста, заполните
+                                форму обратной связи. Так же можете самостоятельно
+                                связаться с нами, позвонив по номеру телефона:
+                            </div>
+                            <a href="tel:+78125092043" class="call-master__number">+7 (812) 509-20-43<span>Позвонить нам</span></a>
+                        </div>
+                        <div class="call-master__right">
+                            <form action="" class="call-master__form">
+                                <div class="call-master__title">Заполните форму:</div>
+                                <input type="number" placeholder="Ваш телефон">
+                                <button type="submit" method="post" class="call-master__btn btn_style">Вызвать мастера на дом</button>
+                            </form>
+                            <img src="img/home/call master/bg.jpg" alt="call master background">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-work section">
+            <div class="container">
+                <div class="title">Как мы работаем</div>
+                <div class="how-work__content">
+                    <div class="how-work__top">
+                        <div class="how-work__item">
+                            <div class="how-work__header">
+                                <span class="how-work__number">1</span>
+                                <span class="how-work__title">Звонок</span>
+                            </div>
+                            <div class="how-work__text">
+                                Привозите технику самостоятельно или
+                                передаете курьером
+                            </div>
+                        </div>
+                        <div class="how-work__item">
+                            <div class="how-work__header">
+                                <span class="how-work__number">2</span>
+                                <span class="how-work__title">Доставка</span>
+                            </div>
+                            <div class="how-work__text">
+                                Звоните по телефону и оставляете заявку
+                                на ремонт техники
+                            </div>
+                        </div>
+                        <div class="how-work__item">
+                            <div class="how-work__header">
+                                <span class="how-work__number">3</span>
+                                <span class="how-work__title">Диагностика</span>
+                            </div>
+                            <div class="how-work__text">
+                                Проводится точная и полная диагностика
+                                Вашей электроники
+                            </div>
+                        </div>
+                    </div>
+                    <div class="how-work__bottom">
+                        <div class="how-work__item how-work__item_flex">
+                            <div class="how-work__header">
+                                <span class="how-work__number">4</span>
+                                <span class="how-work__title">Согласовывание</span>
+                            </div>
+                            <div class="how-work__text">
+                                Согласовываем с Вами цену и
+                                приступаем к работе
+                            </div>
+                        </div>
+                        <div class="how-work__item how-work__item_flex">
+                            <div class="how-work__header">
+                                <span class="how-work__number">5</span>
+                                <span class="how-work__title">Все уже готово</span>
+                            </div>
+                            <div class="how-work__text">
+                                Передаем исправное устройство в
+                                удобное для вас время
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="company-photo section">
+            <div class="container">
+                <div class="title">Наш сервисный центр</div>
+                <div class="swiper company-photo__slider">
+                    <div class="company-photo__content swiper-wrapper">
+                        <div class="company-photo__item swiper-slide">
+                            <img src="img/home/company photo/01.png" alt="company photo">
+                        </div>
+                        <div class="company-photo__item swiper-slide">
+                            <img src="img/home/company photo/02.png" alt="company photo">
+                        </div>
+                        <div class="company-photo__item swiper-slide">
+                            <img src="img/home/company photo/03.png" alt="company photo">
+                        </div>
+                        <div class="company-photo__item swiper-slide">
+                            <img src="img/home/company photo/01.png" alt="company photo">
+                        </div>
+                        <div class="company-photo__item swiper-slide">
+                            <img src="img/home/company photo/01.png" alt="company photo">
+                        </div>
+                        <div class="company-photo__item swiper-slide">
+                            <img src="img/home/company photo/01.png" alt="company photo">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination company-photo__pagination pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="call-master section">
+            <div class="container">
+                <div class="title">Вызвать курьера</div>
+                <div class="call-master__content">
+                    <div class="call-master__block">
+                        <div class="call-master__left">
+                            <div class="call-master__title">Вызвать курьера на дом</div>
+                            <div class="call-master__text">
+                                Для вызова курьера на дом заполните быструю
+                                форму обратной связи. Так же можете самостоятельно
+                                связаться с нами, позвонив по номеру телефона:
+                            </div>
+                            <a href="tel:+78125092043" class="call-master__number">+7 (812) 509-20-43<span>Позвонить нам</span></a>
+                        </div>
+                        <div class="call-master__right">
+                            <form action="" class="call-master__form">
+                                <div class="call-master__title">Заполните форму:</div>
+                                <input type="number" placeholder="Ваш телефон">
+                                <button type="submit" method="post" class="call-master__btn btn_style">Вызвать курьера на дом</button>
+                            </form>
+                            <img src="img/home/call master/delivery.jpg" alt="call cщurier background">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
